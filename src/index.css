@@ -73,12 +73,12 @@ html {
 }
 
 
-@media (prefers-color-scheme:dark) {
+/* @media (prefers-color-scheme:dark) {
   :root {
     --backgroundColor: var(--darkModeBackgroundColor);
     --textColor: var(--darkModeTextColor)
   }
-}
+} */
 
 .dark-theme {
   --backgroundColor: var(--darkModeBackgroundColor);
