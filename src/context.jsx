@@ -4,7 +4,7 @@ const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('tiger');
+  const [searchTerm, setSearchTerm] = useState('cat');
 
   const toggleDarkTheme = () => {
     const newDarkTheme = !isDarkTheme;
